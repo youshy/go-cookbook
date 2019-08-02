@@ -17,3 +17,11 @@ Aka - 'Learning new language and documenting it'
 * Bypassing package? Use `_` in front of the package name
 
 * `:=` - short assignment statement (instead of using `var`). Cannot reassign!
+
+* `*` - that's a pointer (same as in C). Example:
+
+```go
+var p *string
+```
+
+this is a pointer to a string then.
