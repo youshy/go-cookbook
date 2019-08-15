@@ -25,3 +25,18 @@ var p *string
 ```
 
 this is a pointer to a string then.
+
+## Printf verbs
+
+| Verb | Desc |
+|---|---|
+| `%d` | decimal integer |
+| `%x`, `%o`, `%b` | integer in hexadecimal, octal, binary |
+| `%f`, `%g`, `%e` | floating-point number |
+| `%t` | boolean |
+| `%c` | rune (Unicode code point) |
+| `%s` | string |
+| `%q` | quoted string "abc" or rune 'c' |
+| `%v` | any value in a natural format |
+| `%T` | type of any value |
+| `%%` | literal percert sign |
